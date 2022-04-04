@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos locais</h1>
+    <p>Este video vai rodar no meu servidor</p>
+    <video width="560" height="315" poster="imagens/foto.png" controls autoplay loop>
+        <source src="videos/feito.ogv" type="video/ogv">
+        <source src="videos/feito.mp4" type="video/mp4">
+        <source src="videos/feito.m4v" type="Video/m4v">
+        <source src="videos/feito.webm" type="video/webm">
+        <p>Seu navegador não é compativel com o video </p>
+    </video>
+    <h1>Este video é externo do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/qFZhKZaClY8" 
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+</body>
+</html>
